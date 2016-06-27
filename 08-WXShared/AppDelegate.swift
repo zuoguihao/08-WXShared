@@ -15,7 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, WXApiDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
         
         // 微信分享注册id
         WXApi.registerApp("wxd930ea5d5a258f4f")
